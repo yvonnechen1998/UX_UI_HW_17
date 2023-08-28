@@ -1,6 +1,11 @@
 
 body { 
     font-family: 'Inter', sans-serif;
+    /* background: url(images/background.png) / cover no-repeat; */
+    /* background: radial-gradient(50% 50.00% at 50% 50.00%, #FF8696 0%, rgba(255, 215, 154, 0.00) 80%); */
+    /* background: radial-gradient(#FF8696, #FFD79A 0%); */
+    background: radial-gradient(ellipse at top, rgba(255, 134, 150, 0.2), transparent),
+            radial-gradient(ellipse at bottom, rgba(255, 215, 154, 0.2), transparent);
 }
 
 h1,p { 
@@ -65,12 +70,14 @@ h2 {
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 8px; 
+    gap: 8px;
+    margin-bottom: 32px; 
 }
 
 .resume-button-container { 
     display: flex;
     justify-content: center;
+    margin-top: 32px;
 }
 
 .resume-button { 
@@ -80,7 +87,7 @@ h2 {
     justify-content: center;
     gap: 8px;
     border-radius: 12px;
-    border: 1px solid black;
+    border: 1px solid gre;
     background: #FFF
 }
 
@@ -141,3 +148,13 @@ h2 {
     font-size: 16px;
     line-height: 24px;
 } */
+
+.word-container { 
+    display: inline-block;
+    padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: #FFC3AA;
+}
